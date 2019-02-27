@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 114 115" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g id="Монтажная-область2" serif:id="Монтажная область2" transform="matrix(0.954323,0,0,0.960966,-69.3841,-26.9388)">
+        <rect x="72.705" y="28.033" width="119.282" height="119.638" style="fill:none;"/>
+        <clipPath id="_clip1">
+            <rect x="72.705" y="28.033" width="119.282" height="119.638"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <g id="logo" transform="matrix(1.04786,0,0,1.04062,-94.9268,28.0085)">
+                <rect id="btm-shadow" serif:id="btm shadow" x="160" y="4" width="100" height="100" style="fill:rgb(13,169,229);"/>
+                <rect id="shadow" x="174" y="15" width="100" height="100" style="fill:rgb(13,169,229);fill-opacity:0.701961;"/>
+                <rect id="logo-bg" serif:id="logo bg" x="160" y="0" width="100" height="100" style="fill:white;"/>
+                <g id="p" transform="matrix(1,0,0,1,-60,-230)">
+                    <clipPath id="_clip2">
+                        <rect x="256" y="256" width="28" height="47"/>
+                    </clipPath>
+                    <g clip-path="url(#_clip2)">
+                        <g transform="matrix(1,-0,-0,1,219.975,230.024)">
+                            <use xlink:href="#_Image3" x="36.025" y="25.976" width="28px" height="47px"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <image id="_Image3" width="28px" height="47px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAvCAYAAADw46qXAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAClklEQVRYhb2YwZWbMBCGv/XLlRffdVh3EHew7mC56RhSQZwKFnfgDoKP3LwVLO7AriDmwD08NZAD0hpjDYiNWV3wm2H0MaP5kcwDHxhRXs2BNVAYrYoxsQ8fBO6B55ZpB2Qh8NHAKK8S4Lfg/mW02vbFz0bC5oA0YQ0UQ3OMAtKs21fBlxitjkMTBJfUZncWgK9Gq7hzbwwsrGnvHuZLKBBIBFhNk7mDrYG0c+9LlFcHIB4DjAX71mh1tlllXLq3tNdHe30CtkEljfJqAfzxuGouZSuAb/b3xmiVRnl1bgGB8JKK2XVgNbAyWh3tQz52A0K7NBHsWQt2crC+hxwERnm15FKq9tjRZOgy68pi5ZsvpKSJYG8/SDszJ4tnT8wppKQS0MF+eAQvxZx7gVFexchvFoCd0Srz2NceG0AxlGHS4zsZrW78UV6t8HTnINC2tW8dwLa/4EsFe2m0OvZlKGkPIDZa/e0abXZPQkwG/bKQ1mHTs9H27YUysGcdSqNVKsSs8esVmuY6i0DkZpFgc8lHs97vvhugDf7uCSwFCQDskeWzddl5gcjZedcnyqsUuVEO3SUYA8w8sAR4Ee6v8XT6FbDvRd2VgW0s6fTmtqkb6XQzTIQJ9h1YArwJ956AhXSg6u4WPrHXRqu9Bblu/CnANpJsboC2nD7ttbOb46/CDkjb3TgIFCa6AtrD0pKmEu7YWISA3Hg/RPkOPDTlnIdOFjJmFhZSzvsBkXeGTwcWdwfaVveJ/dUn3P8GIu/cxb1hDrgUfHdfPwdceezlGG2NBfoyLKaAOaBv45yknA7oG8VnAk9TyKEPOFk5HbDs2IqpgVcZjf2U9RFgSnMGAThMCQOY2QZZEfgl6W4jyquF/cc06fgH76/oj/yGlecAAAAASUVORK5CYII="/>
+    </defs>
+</svg>

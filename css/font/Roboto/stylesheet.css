@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto/RobotoRegular.eot);
+    src: url(Roboto/RobotoRegular.eot?#iefix) format("embedded-opentype"), url(Roboto/RobotoRegular.woff) format("woff"), url(Roboto/RobotoRegular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto/RobotoLight.eot);
+    src: url(Roboto/RobotoLight.eot?#iefix) format("embedded-opentype"), url(Roboto/RobotoLight.woff) format("woff"), url(Roboto/RobotoLight.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 300
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto/RobotoMedium.eot);
+    src: url(Roboto/RobotoMedium.eot?#iefix) format("embedded-opentype"), url(Roboto/RobotoMedium.woff) format("woff"), url(Roboto/RobotoMedium.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 500
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto/RobotoBold.eot);
+    src: url(Roboto/RobotoBold.eot?#iefix) format("embedded-opentype"), url(Roboto/RobotoBold.woff) format("woff"), url(Roboto/RobotoBold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 700
+}
+
+@font-face {
+    font-family: RobotoCondensed;
+    src: url(Roboto/RobotoCondensedRegular.eot);
+    src: url(Roboto/RobotoCondensedRegular.eot?#iefix) format("embedded-opentype"), url(Roboto/RobotoCondensedRegular.woff) format("woff"), url(Roboto/RobotoCondensedRegular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: RobotoCondensed;
+    src: url(Roboto/RobotoCondensedLight.eot);
+    src: url(Roboto/RobotoCondensedLight.eot?#iefix) format("embedded-opentype"), url(Roboto/RobotoCondensedLight.woff) format("woff"), url(Roboto/RobotoCondensedLight.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 300
+}
+
+@font-face {
+    font-family: RobotoCondensed;
+    src: url(Roboto/RobotoCondensedBold.eot);
+    src: url(Roboto/RobotoCondensedBold.eot?#iefix) format("embedded-opentype"), url(Roboto/RobotoCondensedBold.woff) format("woff"), url(Roboto/RobotoCondensedBold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 700
+}

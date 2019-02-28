@@ -1,26 +1,18 @@
-function scrollFunction() {
-    var scrollW = window.pageYOffset || document.documentElement.scrollTop,
-        btn = document.querySelector('.js_btn');
-
-    if (scrollW > 1000) {
-        btn.classList.add('active');
-    } else {
-        btn.classList.remove('active');
-    }
-}
-
-    window.onscroll = function () {
-        scrollFunction();
-    };
-
-
-
 function ScrollUp() {
-    var timeOut,
-        top = window.pageYOffset || document.documentElement.scrollTop;
+    swiper.slideTo(0, 1000, true);
 
-    if (top > 0) {
-        window.scrollBy(0, -100);
-        timeOut = setTimeout('ScrollUp()', 20);
-    } else clearTimeout(timeOut);
 }
+
+
+var btnMenu = document.querySelector('.js_header-menu-open'),
+    menuList = document.querySelector('.js_menu-list'),
+    closeMenu = document.querySelector('.js_close-icon');
+
+
+btnMenu.onclick = function () {
+    menuList.classList.add('show');
+};
+
+closeMenu.onclick = function() {
+    menuList.classList.remove('show');
+};

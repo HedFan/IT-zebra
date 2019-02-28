@@ -2,29 +2,26 @@
   width: 100%;
   height: 100vh;
   text-align: right;
-  background: url("../img/phone-img.svg") 13% 450px no-repeat;
-  background-size: 250px;
+  background: url("../img/phone-img.svg");
+  background-size: contain;
+  background-position: left 200px top 300px;
+  background-repeat: no-repeat;
   background-color: $blue;
+
   &__heading {
     width: 100%;
     h1 {
       color: $white;
       font-weight: 100;
-      font-size: 50px;
+      font-size: 60px;
       font-family: $mainFont;
     }
     p {
       font-family: $subFont;
       color: $white;
-      font-size: 30px;
+      font-size: 40px;
       font-weight: 100;
-      margin-bottom: 45px;
-    }
-    .btn {
-      &--white-blue {
-
-      }
+      margin-bottom: 60px;
     }
   }
-
 }

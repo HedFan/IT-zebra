@@ -69,7 +69,10 @@ gulp.task('style:build', gulp.series(function (done) {
         .pipe(plumber())
         .pipe(sourcemaps.init())
         .pipe(sass())
-        .pipe(autoprefixer())
+        .pipe(autoprefixer({
+        browsers: ['last 3 versions'],
+        cascade: false
+    }))
         .pipe(gcmq())
         .pipe(cleanCSS())
         .pipe(sourcemaps.write('.'))

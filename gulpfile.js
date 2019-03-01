@@ -37,7 +37,7 @@ gulp.task('font:build', gulp.series(function (done) {
             modify: function (url, filePath) {
                 return url;
             },
-            prepend: '/',
+            prepend: '../',
         }))
         .pipe(concat('fonts.min.css'))
         .pipe(gulp.dest(custom_path.build.font));

@@ -4,12 +4,13 @@
   text-align: right;
   background: url("../img/phone-img.svg");
   background-size: contain;
-  background-position: left 200px top 300px;
+  background-position: left 200px top 400px;
   background-repeat: no-repeat;
   background-color: $blue;
 
   &__heading {
     width: 100%;
+    margin-bottom: 50px;
     h1 {
       color: $white;
       font-weight: 100;

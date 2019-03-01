@@ -70,8 +70,7 @@ gulp.task('style:build', gulp.series(function (done) {
         .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(autoprefixer({
-        browsers: ['last 3 versions'],
-        cascade: false
+        browsers: ['last 3 versions', 'ie 9', 'ie 10', 'ie 11'],
     }))
         .pipe(gcmq())
         .pipe(cleanCSS())

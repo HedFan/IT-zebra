@@ -4,9 +4,9 @@
   height: 100vh;
   text-align: left;
   background: url("../img/ipad-img.svg");
-
   background-repeat: no-repeat;
   background-position: bottom -100px right -50px;
+  -ms-background-position: bottom -100px right -50px;
   background-color: $light-gray;
   background-origin: border-box;
   background-size: contain;
@@ -14,7 +14,8 @@
   &--around {
     background: url("../img/devices-img.svg");
     background-repeat: no-repeat;
-    background-position: top 200px right 480px;
+    background-position: left -260px top 200px;
+    -ms-background-position: left -260px top 200px;
     background-size: contain;
     background-color: $white;
     background-origin: border-box;

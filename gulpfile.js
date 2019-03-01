@@ -28,7 +28,7 @@ var custom_path = {
 };
 
 
-gulp.task('font:build', function () {
+gulp.task('font:build', gulp.series(function (done) {
     gulp.src(custom_path.src.font)
         .pipe(cleanCSS({
             rebaseTo: '.',
@@ -41,7 +41,8 @@ gulp.task('font:build', function () {
         }))
         .pipe(concat('fonts.min.css'))
         .pipe(gulp.dest(custom_path.build.font));
-});
+    done();
+}));
 
 
 
@@ -78,6 +79,7 @@ gulp.task('style:build', gulp.series(function (done) {
         .pipe(gulp.dest(custom_path.build.style));
     done();
 }));
+
 
 
 gulp.task('watch', gulp.series(function (done) {

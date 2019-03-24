@@ -10,6 +10,12 @@
   background-color: $light-gray;
   background-origin: border-box;
   background-size: contain;
+  @include respond-from(md) {
+    background-position: bottom -100px right -265px;
+  }
+  @include respond-from(sm) {
+    background-image: none;
+  }
 
   &--around {
     background: url("../img/devices-img.png");
@@ -19,12 +25,29 @@
     background-size: contain;
     background-color: $white;
     background-origin: border-box;
+    @include respond-from(md) {
+      background-position: left -270px top 265px;
+    }
 
     .slide-content {
       width: 35%;
       margin-top: 100px;
+      @include respond-from(lg) {
+        width: 40%;
+        margin-top: 75px;
+      }
+      @include respond-from(md) {
+        width: 55%;
+      }
+      @include respond-from(sm) {
+        width: 100%;
+        margin-top: 0px;
+      }
       &__btn {
         margin-top: 60px;
+        @include respond-from(sm) {
+          margin-top: 40px;
+        }
       }
     }
   }
@@ -47,18 +70,53 @@
   &--soc {
     background: $light-gray;
     text-align: center;
+    .slide-content {
+      @include respond-from(lg) {
+        width: 65%;
+      }
+      @include respond-from(md) {
+        width: 100%;
+      }
+      .soc-list {
+        &__item {
+          @include respond-from(sm) {
+            width: 40px;
+            height: 40px;
+            i {
+              padding: 10px;
+            }
+            &--telegram {
+              i {
+                padding: 9px 1px 9px 0;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 
 .slide-content {
   font-family: $subFont;
   width: 50%;
+  @include respond-from(md) {
+    width: 70%;
+  }
+  @include respond-from(sm) {
+    width: 100%;
+    margin-top: 40px;
+  }
 
   &__heading {
     font-size: 35px;
     color: $black;
     font-weight: 200;
     margin-bottom: 30px;
+    @include respond-from(sm) {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
   }
 
   &__text {
@@ -81,6 +139,10 @@
 
   &__btn {
     margin-top: 80px;
+    @include respond-from(sm) {
+      margin-top: 40px;
+      text-align: center;
+    }
   }
 }
 
@@ -88,6 +150,9 @@
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  @include respond-from(sm) {
+    margin-bottom: 20px;
+  }
 
   &__item {
     margin: 10px;

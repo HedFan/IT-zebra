@@ -21,7 +21,7 @@
     }
   }
 
-  &__bnt-up {
+  &__btn-up {
     position: absolute;
     width: 40px;
     height: 40px;
@@ -29,8 +29,12 @@
     background-color: $bg-light-beige;
     right: 40px;
     cursor: pointer;
+    @include respond-from(sm) {
+      margin-top: 50px;
+      left: calc(50% - 20px);
+    }
 
-   i {
+    i {
       font-size: 16px;
       color: $dark-gray;
       padding: 11px;

@@ -7,15 +7,31 @@
   background-position: left 200px top 400px;
   background-repeat: no-repeat;
   background-color: $blue;
+  @include respond-from(md) {
+    background-position: left 105px top 400px;
+  }
+  @include respond-from(sm) {
+    background-image: none;
+    text-align: center;
+  }
 
   &__heading {
     width: 100%;
     margin-bottom: 50px;
+    @include respond-from(sm) {
+      margin-bottom: -30px;
+    }
     h1 {
       color: $white;
       font-weight: 100;
       font-size: 60px;
       font-family: $mainFont;
+      @include respond-from(lg) {
+        font-size: 50px;
+      }
+      @include respond-from(sm) {
+        font-size: 45px;
+      }
     }
     p {
       font-family: $subFont;
@@ -23,6 +39,15 @@
       font-size: 40px;
       font-weight: 100;
       margin-bottom: 60px;
+      @include respond-from(lg) {
+        font-size: 33px;
+      }
+      @include respond-from(md) {
+        font-size: 27px;
+      }
+      @include respond-from(sm) {
+        margin-bottom: 45px;
+      }
     }
   }
 }

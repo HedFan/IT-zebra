@@ -1,40 +1,37 @@
 .container {
-  width: 100%;
+  width: auto;
   height: 100%;
-
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  max-width: 1110px;
 
   .row {
     display: flex;
     flex-wrap: wrap;
     height: 100%;
     width: 100%;
-
     &--header-block {
       justify-content: space-between;
     }
-
     &--slide-block-head {
       align-items: center;
       justify-content: right;
     }
-
     &--slide-block {
       align-items: center;
     }
-
     &--around-slide-block {
       justify-content: flex-end;
+      @include respond-from(sm) {
+        align-items: center;
+      }
     }
-
     &--center-slide-block {
       align-items: center;
       justify-content: center;
     }
-
     &--soc-slide-block {
       align-items: center;
       justify-content: center;
@@ -44,25 +41,32 @@
       justify-content: center;
     }
   }
-
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1200px) {
   .container {
-    min-width: 960px;
-  }
-}
-@media (min-width: 960px) {
-  .container {
-    max-width: 930px
+    max-width: 930px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 992px) {
   .container {
-    max-width: 1110px
+    max-width: 720px
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: none;
+  }
+}
+
 
 h1, h2, h3, p {
   margin: 10px 0;
@@ -80,6 +84,12 @@ a.btn {
   font-family: $subFont;
   border-radius: 2px;
   position: relative;
+  @include respond-from(lg) {
+    font-size: 14px;
+  }
+  @include respond-from(sm) {
+    padding: 12px 20px;
+  }
 
   &:hover, &:active, &:focus {
     background-color: $white;
@@ -125,6 +135,10 @@ a.btn {
 .group-item {
   display: inline-flex;
   align-items: baseline;
+  @include respond-from(sm) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   &__input {
     width: 218px;
     position: relative;
@@ -137,12 +151,20 @@ a.btn {
     top: 15px;
     cursor: pointer;
     font-size: 17px;
+    @include respond-from(sm) {
+      top: 13px;
+    }
   }
 
   span {
     margin-right: 20px;
     color: $dark-gray;
     letter-spacing: 0.7px;
+    @include respond-from(sm) {
+      margin-right: 0;
+      margin-bottom: 15px;
+      width: 100%;
+    }
   }
 
 

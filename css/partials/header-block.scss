@@ -6,24 +6,27 @@
   left: 0;
   z-index: 10;
   background-color: $white;
-
-
   &__icon-logo {
     width: 115px;
     height: 115px;
+    @include respond-from(sm) {
+      width: 95px;
+      height: 95px;
+    }
   }
-
 }
 
 .header-menu {
   position: relative;
   width: calc(100% - 115px);
 
-
   &__icon {
     cursor: pointer;
     position: relative;
     margin-top: 50px;
+    @include respond-from(sm) {
+      margin-top: 29px;
+    }
 
     span {
       background: url("../img/icon/g-menu-icon.svg") no-repeat;
@@ -60,8 +63,6 @@
   &.show {
     top: 0;
     opacity: 1;
-
-
   }
 
   ul {
@@ -90,6 +91,12 @@
     font-size: 25px;
     margin: 30px 50px;
     cursor: pointer;
+    @include respond-from(sm) {
+      margin: 29px 35px;
+      i {
+        font-size: 30px;
+      }
+    }
   }
 }
 
